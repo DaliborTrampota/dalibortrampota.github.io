@@ -189,23 +189,23 @@ header {
   max-width: 128px;
 }
 
-header .title{
+.fullSize .title{
   display: inline-block;
   margin-left: 25px;
   margin-top: 10px;
   margin-bottom: 15px;
 }
 
-.fullSize ul {
+header ul {
   margin-right: 15px;
 }
 
-.fullSize li {
+header .fullSize li {
   float: left;
   display: inline-block;
 }
 
-.fullSize a {
+header a {
   text-decoration: none;
   font-weight: bold;
   color: #f2f2f2;
@@ -216,7 +216,7 @@ header .title{
 header a:hover {
   background-color: #37003f;
 }
-.fullSize nav {
+header .fullSize nav {
   float: right;
   display: inline-block;
   margin-top: 20px;
@@ -289,48 +289,34 @@ footer {
     display: block;
   }
 
-
-  .mobile ul {
-    margin-left: -2rem;
-  }
-  .mobile li{
-    display: inline-block;
-  }
-
-  .mobile nav {
-    justify-content: center;
-    display: flex;
-    margin-top: -5px;
-  }
-
-  .mobile a {
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 12px;
-    color: #f2f2f2;
-    padding: 10px 1px 10px 1px;
-  }
-
-  .mobile > .title2 {
-    display: inline-block;
-  }
-  .mobile .title1{
-    display: inline-block;
-  }
-  #title1{
-    text-align: left;
-    margin-left: 50px;
-    margin-top: -30px;
-  }
-  #title2 {
-    text-align:  right;
-    margin-top: -50px;
-    margin-right: 50px;
-  }
-
-
   .heading {
-    margin-top: 50px;
+    margin-top: 15px;
+  }
+
+  .mobile header {
+    display: block;
+  }
+
+  .mobile header li{
+    float: left;
+    display: inline-block;
+    margin: 0 0;
+  }
+
+  .mobile header nav {
+    margin-top: 0;
+  }
+  .mobile .title > h2{
+    display: inline-block;
+    margin-top: 0;
+  }
+
+  h2 #dalibor {
+    float: left;
+  }
+
+  h2 #portf {
+    float: right;
   }
 
   #navLogo {
