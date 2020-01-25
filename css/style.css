@@ -220,13 +220,12 @@ header nav {
   float: right;
   display: inline-block;
   margin-top: 20px;
-  margin-bottom: -5rem;
 }
 
 @media screen and (max-width: 800px){
 
   header {
-    top: -10;
+    top: -10px;
   }
 
   header li{
